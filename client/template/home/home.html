@@ -1,0 +1,10 @@
+<template name="home">
+
+	<h3>Featured Products</h3>
+	{{#each products}}
+		{{name}}
+	{{else}}
+		<p>There are no products in the database</p>
+	{{/each}}
+
+</template>
